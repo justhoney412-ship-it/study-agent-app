@@ -73,7 +73,9 @@ export async function POST(request: NextRequest) {
   }
 
   const result = streamText({
-    model: anthropic('claude-sonnet-4-5")
+    model: anthropic('claude-sonnet-4-5'
+      
+    )
     prompt: userMessage,
   })
 
